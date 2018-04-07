@@ -1,0 +1,45 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2%;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 10px; 
+}
+
+.header div input {
+  border-radius: 5px;
+  width: 50%;
+}
+
+.header div button {
+  border-radius: 5px;
+  width: 10%;
+}
+
+li {
+  background-color: white;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+
+.unchecked {
+  padding: 2%;
+}
+
+.checked {
+  padding: 2%;
+  text-decoration: line-through;
+}
+
+/* li {
+    margin: 10px;
+} */
