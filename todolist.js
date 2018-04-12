@@ -28,9 +28,7 @@ function addNewTask() {
         alert("You must give a name to your task");
     }
     else {
-        var attr = createAttribute("draggable");
-        attr.value = "true";
-        li.setAttributeNode(attr);
+        li.setAttribute("draggable", "true");
         var text = document.createTextNode(data);
         li.appendChild(text);
         li.className += "draggable unchecked";
